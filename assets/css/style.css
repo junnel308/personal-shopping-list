@@ -15,9 +15,9 @@ header {
     flex-direction: column;
     background-color: rgb(122, 122, 221);
     width: 100%;
-    height: auto;
+    height: 5rem;
 }
- a {
+ li {
     list-style: none;
     text-decoration: none;
  }
@@ -47,6 +47,9 @@ main section {
     background-color: rgb(122, 122, 221);
     width: 100%;
     border: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
     text-align: center;
     list-style: none;
 }
